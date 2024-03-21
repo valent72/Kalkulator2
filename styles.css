@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.second-table {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(0.7);
+
+
+}
+
+.second-table {
+    padding: 20px;
+}
+
+.second-table tr td {
+    width: 100px;
+    height: 100px;
+}
+
+.second-table .total {
+    background-color: rgb(255, 255, 255);
+    color: black; 
+    text-align: right;
+    padding-right: 20px;
+}
+
+.zero {
+    width: 250px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10%;
+    width: 120px;
+    height: 90px;
+    background-color: rgb(128, 128, 128);
+    border: 100;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.aaa {
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+
+.aaa:hover {
+    background-color: black;
+}
+
+.operation {
+    background-color: rgb(186, 0, 0)
+}
+
+.operation:hover {
+    background-color: black;
+    ;
+}
+
+.second-table .total {
+    font-size: 44px;
+}
